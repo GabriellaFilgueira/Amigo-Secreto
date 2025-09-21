@@ -30,7 +30,7 @@ function adicionarAmigo(){
 
 function ExibirLista(){
     let paragrafo = document.getElementById('listaAmigos');
-    paragrafo.innerHTML = 'Particpantes do amigo secreto: ';
+    paragrafo.innerHTML = 'Participantes do amigo secreto: ';
 
     NomesParaSorteio.forEach(nome => {
         let li = document.createElement('li');
@@ -53,6 +53,7 @@ function limparLista(){
     document.getElementById('listaAmigos').innerHTML = '';
     
 }   
+
 
 
 
